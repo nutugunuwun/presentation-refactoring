@@ -1,0 +1,18 @@
+body {
+    cursor: default;
+}
+
+.slide-title {
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px !important;
+    font-style: italic !important;
+    color: #999;
+}
+
+img {
+    border: none !important;
+    box-shadow: none !important;
+}
