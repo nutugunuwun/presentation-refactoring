@@ -84,7 +84,7 @@
 				<section data-background-color="#fff" data-background-transition="zoom">
 					<img src="assets/refactoring.png" style="width:auto;height:620px;" />
 				</section>
-				<section style="text-align:left;">
+				<section class="left">
 					<h3>Refactoring</h3>
 					<ul style="list-style-type:none;font-style:italic;">
 						<li style="padding-top:30px;">
@@ -125,7 +125,7 @@
 					<section data-background-color="#fff" >
 						<img src="assets/technical-debt.png" style="width:auto;height:620px;" />
 					</section>
-					<section style="text-align:left;">
+					<section class="left">
 						Causes of technical debt
 						<small>
 							<ul style="list-style-type:square;margin-top:30px;">
@@ -160,7 +160,7 @@
 				</section>
 				<section style="text-align:left">
 					<h3>Clean Code</h3>
-					<small><i>Code that is easy to read, understand and maintain. Makes software development predictable and increases the quality of a resulting product.</i></small>
+					<small><i>Code that is easy to read, understand and maintain makes software development predictable and increases the quality of a resulting product.</i></small>
 					<ul style="margin-top:50px;list-style-type:square;">
 						<li class="fragment">Obvious for other programmers</li>
 						<li class="fragment">Doesn't contain duplication</li>
@@ -172,7 +172,7 @@
 						Jelas untuk programmer lain, tidak mengandung duplikasi, berisi jumlah minimal kelas dan bagian bergerak lainnya, melewati semua tes, lebih mudah dan lebih murah untuk dipelihara.
 					</aside>
 				</section>
-				<section style="text-align:left;">
+				<section class="left">
 					<div>When to refactor</div>
 					<ul style="list-style-type:square;margin-top:40px;">
 						<li class="fragment">
@@ -190,7 +190,7 @@
 						<li class="fragment" style="padding-top:20px;">During a code review</li>
 					</ul>
 				</section>
-				<section style="text-align:left;">
+				<section class="left">
 					<div>Checklist of refactoring done <i>right way</i></div>
 					<ul style="margin-top:50px;list-style-type:square;">
 						<li class="fragment" style="padding-top:20px;">The code should become cleaner (easy to read, understand and maintain).</li>
@@ -198,7 +198,7 @@
 						<li class="fragment" style="padding-top:20px;">All existing tests must pass after refactoring.</li>
 					</ul>
 				</section>
-				<section style="text-align:left;">
+				<section class="left">
 					<h3>Dirty Code</h3>
 					<i><small>… is often result of laziness and incompetence, it can also pile-up due to shortcuts taken during development process.</small></i>
 					<div class="fragment" style="margin-top:100px;">
@@ -209,7 +209,7 @@
 					</div>
 				</section>
 				<section>
-					<section style="text-align:left;">
+					<section class="left">
 						<h3 style="margin-top:30px;"><div style="text-transform:lowercase !important;padding-top:5px;font-weight:normal;float:left;margin-top:10px;margin-right:15px;"><small>Code Smell ></small></div> Bloaters</h3>
 						<i><small>… are code, methods and classes that have increased to such gargantuan proportions that they are hard to work with.</small></i>
 						<ul style="margin-top:70px;list-style-type:square;">
@@ -220,7 +220,7 @@
 							<li>Data Clumps</li>
 						</ul>
 					</section>
-					<section style="text-align:left;">
+					<section class="left">
 						<h3 style="margin-top:30px;"><div style="text-transform:lowercase !important;padding-top:5px;font-weight:normal;float:left;margin-top:10px;margin-right:15px;"><small>Code Smell ></small></div> Object-Orientation Abusers</h3>
 						<i><small>… are incomplete or incorrect application of object-oriented programming principles.</small></i>
 						<ul style="margin-top:70px;list-style-type:square;">
@@ -230,7 +230,7 @@
 							<li>Alternative Classes with Different Interfaces</li>
 						</ul>
 					</section>
-					<section style="text-align:left;">
+					<section class="left">
 						<h3 style="margin-top:30px;"><div style="text-transform:lowercase !important;padding-top:5px;font-weight:normal;float:left;margin-top:10px;margin-right:15px;"><small>Code Smell ></small></div> Change Preventers</h3>
 						<i><small>… mean that if you need to change something in one place in your code, you have to make many changes in other places too.</small></i>
 						<ul style="margin-top:70px;list-style-type:square;">
@@ -239,7 +239,7 @@
 							<li>Parallel Inheritance Hierarchies</li>
 						</ul>
 					</section>
-					<section style="text-align:left;">
+					<section class="left">
 						<h3 style="margin-top:30px;"><div style="text-transform:lowercase !important;padding-top:5px;font-weight:normal;float:left;margin-top:10px;margin-right:15px;"><small>Code Smell ></small></div> Dispensables</h3>
 						<i><small>… is something pointless and unneeded whose absence would make the code cleaner, more efficient and easier to understand.</small></i>
 						<ul style="margin-top:70px;list-style-type:square;">
@@ -251,7 +251,7 @@
 							<li>Speculative Generality</li>
 						</ul>
 					</section>
-					<section style="text-align:left;">
+					<section class="left">
 						<h3 style="margin-top:30px;"><div style="text-transform:lowercase !important;padding-top:5px;font-weight:normal;float:left;margin-top:10px;margin-right:15px;"><small>Code Smell ></small></div> Couplers</h3>
 						<i><small>… contribute to excessive coupling between classes or show what happens if coupling is replaced by excessive delegation.</small></i>
 						<ul style="margin-top:70px;list-style-type:square;">
@@ -261,7 +261,7 @@
 							<li>Middle Man</li>
 						</ul>
 					</section>
-					<section style="text-align:left;">
+					<section class="left">
 						<h3 style="margin-top:30px;"><div style="text-transform:lowercase !important;padding-top:5px;font-weight:normal;float:left;margin-top:10px;margin-right:15px;"><small>Code Smell ></small></div> Others</h3>
 						<i><small>… are the smells which do not fall into any broad category.</small></i>
 						<ul style="margin-top:70px;list-style-type:square;">
@@ -269,7 +269,7 @@
 						</ul>
 					</section>
 				</section>
-				<section style="text-align:left;">
+				<section class="left">
 					<div>Refactoring Techniques</div>
 					<ul style="margin-top:70px;list-style-type:square;">
 						<li>Composing Methods</li>

@@ -16,3 +16,7 @@ img {
     border: none !important;
     box-shadow: none !important;
 }
+
+section.left {
+    text-align: left !important;
+}
